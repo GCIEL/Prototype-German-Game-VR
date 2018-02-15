@@ -1,0 +1,1031 @@
+fileFormatVersion: 2
+guid: 48a5930f44c4b9b489b6cb1dcb0a1534
+timeCreated: 18446744011573954816
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: beams_horizontal
+    100002: beams_horizontal_001
+    100004: beams_horizontal_002
+    100006: beams_horizontal_003
+    100008: beams_horizontal_004
+    100010: beams_horizontal_005
+    100012: beams_horizontal_006
+    100014: beams_horizontal_007
+    100016: beams_horizontal_008
+    100018: beams_horizontal_009
+    100020: beams_horizontal_010
+    100022: beams_horizontal_011
+    100024: beams_supporting
+    100026: beams_supporting_001
+    100028: beams_vertical
+    100030: //RootNode
+    100032: cityMuseumSign
+    100034: cupola_arches
+    100036: cupola_base
+    100038: cupola_roof
+    100040: door_handle_main
+    100042: door_handle_worker
+    100044: entrance_sign
+    100046: hoursOperation
+    100048: houseNumberSign
+    100050: infoSign
+    100052: lower_floor_001
+    100054: lower_floor_002
+    100056: lower_floor_003
+    100058: lower_floor_004
+    100060: lower_floor_005
+    100062: lower_floor_006
+    100064: lower_floor_007
+    100066: lower_floor_008
+    100068: lower_floor_009
+    100070: lower_floor_010
+    100072: mainDoorHinge
+    100074: mainDoorHinge_0
+    100076: mainEntrance
+    100078: no_entrance_sign
+    100080: postBox
+    100082: roof
+    100084: roof018
+    100086: roof019
+    100088: roof020
+    100090: roof_001
+    100092: roof_002
+    100094: roof_003
+    100096: roof_004
+    100098: roof_005
+    100100: roof_006
+    100102: roof_007
+    100104: roof_008
+    100106: roof_009
+    100108: roof_010
+    100110: roof_011
+    100112: roof_012
+    100114: roof_013
+    100116: roof_014
+    100118: roof_015
+    100120: roof_016
+    100122: roof_017
+    100124: upper_floor_001
+    100126: upper_floor_002
+    100128: upper_floor_003
+    100130: upper_floor_004
+    100132: upper_floor_005
+    100134: upper_floor_006
+    100136: upper_floor_007
+    100138: upper_floor_008
+    100140: upper_floor_009
+    100142: upper_floor_010
+    100144: upper_floor_011
+    100146: upper_floor_012
+    100148: upper_floor_013
+    100150: upper_floor_014
+    100152: upper_floor_015
+    100154: upper_floor_016
+    100156: upper_floor_017
+    100158: window_frames_front
+    100160: window_frames_side
+    100162: windows_upper_floor
+    100164: workerDoorHinge
+    100166: workerDoorHinge_0
+    100168: workerEntrance
+    400000: beams_horizontal
+    400002: beams_horizontal_001
+    400004: beams_horizontal_002
+    400006: beams_horizontal_003
+    400008: beams_horizontal_004
+    400010: beams_horizontal_005
+    400012: beams_horizontal_006
+    400014: beams_horizontal_007
+    400016: beams_horizontal_008
+    400018: beams_horizontal_009
+    400020: beams_horizontal_010
+    400022: beams_horizontal_011
+    400024: beams_supporting
+    400026: beams_supporting_001
+    400028: beams_vertical
+    400030: //RootNode
+    400032: cityMuseumSign
+    400034: cupola_arches
+    400036: cupola_base
+    400038: cupola_roof
+    400040: door_handle_main
+    400042: door_handle_worker
+    400044: entrance_sign
+    400046: hoursOperation
+    400048: houseNumberSign
+    400050: infoSign
+    400052: lower_floor_001
+    400054: lower_floor_002
+    400056: lower_floor_003
+    400058: lower_floor_004
+    400060: lower_floor_005
+    400062: lower_floor_006
+    400064: lower_floor_007
+    400066: lower_floor_008
+    400068: lower_floor_009
+    400070: lower_floor_010
+    400072: mainDoorHinge
+    400074: mainDoorHinge_0
+    400076: mainEntrance
+    400078: no_entrance_sign
+    400080: postBox
+    400082: roof
+    400084: roof018
+    400086: roof019
+    400088: roof020
+    400090: roof_001
+    400092: roof_002
+    400094: roof_003
+    400096: roof_004
+    400098: roof_005
+    400100: roof_006
+    400102: roof_007
+    400104: roof_008
+    400106: roof_009
+    400108: roof_010
+    400110: roof_011
+    400112: roof_012
+    400114: roof_013
+    400116: roof_014
+    400118: roof_015
+    400120: roof_016
+    400122: roof_017
+    400124: upper_floor_001
+    400126: upper_floor_002
+    400128: upper_floor_003
+    400130: upper_floor_004
+    400132: upper_floor_005
+    400134: upper_floor_006
+    400136: upper_floor_007
+    400138: upper_floor_008
+    400140: upper_floor_009
+    400142: upper_floor_010
+    400144: upper_floor_011
+    400146: upper_floor_012
+    400148: upper_floor_013
+    400150: upper_floor_014
+    400152: upper_floor_015
+    400154: upper_floor_016
+    400156: upper_floor_017
+    400158: window_frames_front
+    400160: window_frames_side
+    400162: windows_upper_floor
+    400164: workerDoorHinge
+    400166: workerDoorHinge_0
+    400168: workerEntrance
+    2300000: beams_horizontal
+    2300002: beams_horizontal_001
+    2300004: beams_horizontal_002
+    2300006: beams_horizontal_003
+    2300008: beams_horizontal_004
+    2300010: beams_horizontal_005
+    2300012: beams_horizontal_006
+    2300014: beams_horizontal_007
+    2300016: beams_horizontal_008
+    2300018: beams_horizontal_009
+    2300020: beams_horizontal_010
+    2300022: beams_horizontal_011
+    2300024: beams_supporting
+    2300026: beams_supporting_001
+    2300028: beams_vertical
+    2300030: cityMuseumSign
+    2300032: cupola_arches
+    2300034: cupola_base
+    2300036: cupola_roof
+    2300038: door_handle_main
+    2300040: door_handle_worker
+    2300042: entrance_sign
+    2300044: hoursOperation
+    2300046: houseNumberSign
+    2300048: infoSign
+    2300050: lower_floor_001
+    2300052: lower_floor_002
+    2300054: lower_floor_003
+    2300056: lower_floor_004
+    2300058: lower_floor_005
+    2300060: lower_floor_006
+    2300062: lower_floor_007
+    2300064: lower_floor_008
+    2300066: lower_floor_009
+    2300068: lower_floor_010
+    2300070: no_entrance_sign
+    2300072: postBox
+    2300074: roof
+    2300076: roof018
+    2300078: roof019
+    2300080: roof020
+    2300082: roof_001
+    2300084: roof_002
+    2300086: roof_003
+    2300088: roof_004
+    2300090: roof_005
+    2300092: roof_006
+    2300094: roof_007
+    2300096: roof_008
+    2300098: roof_009
+    2300100: roof_010
+    2300102: roof_011
+    2300104: roof_012
+    2300106: roof_013
+    2300108: roof_014
+    2300110: roof_015
+    2300112: roof_016
+    2300114: roof_017
+    2300116: upper_floor_001
+    2300118: upper_floor_002
+    2300120: upper_floor_003
+    2300122: upper_floor_004
+    2300124: upper_floor_005
+    2300126: upper_floor_006
+    2300128: upper_floor_007
+    2300130: upper_floor_008
+    2300132: upper_floor_009
+    2300134: upper_floor_010
+    2300136: upper_floor_011
+    2300138: upper_floor_012
+    2300140: upper_floor_013
+    2300142: upper_floor_014
+    2300144: upper_floor_015
+    2300146: upper_floor_016
+    2300148: upper_floor_017
+    2300150: window_frames_front
+    2300152: window_frames_side
+    2300154: windows_upper_floor
+    3300000: beams_horizontal
+    3300002: beams_horizontal_001
+    3300004: beams_horizontal_002
+    3300006: beams_horizontal_003
+    3300008: beams_horizontal_004
+    3300010: beams_horizontal_005
+    3300012: beams_horizontal_006
+    3300014: beams_horizontal_007
+    3300016: beams_horizontal_008
+    3300018: beams_horizontal_009
+    3300020: beams_horizontal_010
+    3300022: beams_horizontal_011
+    3300024: beams_supporting
+    3300026: beams_supporting_001
+    3300028: beams_vertical
+    3300030: cityMuseumSign
+    3300032: cupola_arches
+    3300034: cupola_base
+    3300036: cupola_roof
+    3300038: door_handle_main
+    3300040: door_handle_worker
+    3300042: entrance_sign
+    3300044: hoursOperation
+    3300046: houseNumberSign
+    3300048: infoSign
+    3300050: lower_floor_001
+    3300052: lower_floor_002
+    3300054: lower_floor_003
+    3300056: lower_floor_004
+    3300058: lower_floor_005
+    3300060: lower_floor_006
+    3300062: lower_floor_007
+    3300064: lower_floor_008
+    3300066: lower_floor_009
+    3300068: lower_floor_010
+    3300070: no_entrance_sign
+    3300072: postBox
+    3300074: roof
+    3300076: roof018
+    3300078: roof019
+    3300080: roof020
+    3300082: roof_001
+    3300084: roof_002
+    3300086: roof_003
+    3300088: roof_004
+    3300090: roof_005
+    3300092: roof_006
+    3300094: roof_007
+    3300096: roof_008
+    3300098: roof_009
+    3300100: roof_010
+    3300102: roof_011
+    3300104: roof_012
+    3300106: roof_013
+    3300108: roof_014
+    3300110: roof_015
+    3300112: roof_016
+    3300114: roof_017
+    3300116: upper_floor_001
+    3300118: upper_floor_002
+    3300120: upper_floor_003
+    3300122: upper_floor_004
+    3300124: upper_floor_005
+    3300126: upper_floor_006
+    3300128: upper_floor_007
+    3300130: upper_floor_008
+    3300132: upper_floor_009
+    3300134: upper_floor_010
+    3300136: upper_floor_011
+    3300138: upper_floor_012
+    3300140: upper_floor_013
+    3300142: upper_floor_014
+    3300144: upper_floor_015
+    3300146: upper_floor_016
+    3300148: upper_floor_017
+    3300150: window_frames_front
+    3300152: window_frames_side
+    3300154: windows_upper_floor
+    4300000: mainEntrance
+    4300002: postBox
+    4300004: houseNumberSign
+    4300006: Circle.004
+    4300008: Circle.002
+    4300010: Circle.001
+    4300012: Plane.002
+    4300014: Cube.002
+    4300016: Plane
+    4300018: Cube.001
+    4300020: Cube
+    4300022: Circle.011
+    4300024: Circle.010
+    4300026: Circle.003
+    4300028: Circle.009
+    4300030: lower_floor
+    4300032: Circle.005
+    4300034: workerEntrance
+    4300036: hoursOperation
+    4300038: cityMuseumSign
+    4300040: infoSign
+    4300042: lower_floor.002
+    4300044: lower_floor.001
+    4300046: beams_horizontal.001
+    4300048: upper_floor.001
+    4300050: beams_vertical
+    4300052: roof
+    4300054: beams_supporting
+    4300056: beams_horizontal
+    4300058: window_frames_side
+    4300060: window_frames_front
+    4300062: doorHandleWorker
+    4300064: doorHandleMain
+    4300066: upper_floor
+    4300068: beams_horizontal.002
+    4300070: beams_horizontal.003
+    4300072: beams_horizontal.004
+    4300074: beams_horizontal.005
+    4300076: beams_horizontal.006
+    4300078: beams_horizontal.007
+    4300080: beams_horizontal.008
+    4300082: beams_horizontal.009
+    4300084: beams_horizontal.010
+    4300086: beams_horizontal.011
+    4300088: beams_supporting.001
+    4300090: upper_floor.002
+    4300092: upper_floor.004
+    4300094: upper_floor.003
+    4300096: upper_floor.006
+    4300098: upper_floor.005
+    4300100: upper_floor.007
+    4300102: upper_floor.008
+    4300104: upper_floor.009
+    4300106: upper_floor.010
+    4300108: upper_floor.011
+    4300110: upper_floor.012
+    4300112: upper_floor.013
+    4300114: upper_floor.014
+    4300116: upper_floor.015
+    4300118: upper_floor.016
+    4300120: upper_floor.017
+    4300122: roof_gable
+    4300124: windows_upper_floor
+    4300126: lower_floor.003
+    4300128: lower_floor.004
+    4300130: lower_floor.005
+    4300132: lower_floor.006
+    4300134: lower_floor.007
+    4300136: lower_floor.008
+    4300138: lower_floor.009
+    4300140: roof.001
+    4300142: lower_floor.010
+    4300144: roof.002
+    4300146: roof.003
+    4300148: roof.004
+    4300150: roof.005
+    4300152: roof.006
+    4300154: roof.007
+    4300156: roof.008
+    4300158: roof.009
+    4300160: roof.010
+    4300162: roof.011
+    4300164: roof.012
+    4300166: roof.013
+    4300168: roof.014
+    4300170: roof.015
+    4300172: roof.016
+    4300174: roof.017
+    4300176: cupola_arches
+    4300178: cupola_base
+    4300180: cupola_roof
+    4300182: roof019
+    4300184: roof018
+    4300186: roof020
+    4300188: entrance_sign
+    4300190: no_entrance_sign
+    4300192: Tube
+    4300194: door_handle
+    4300196: door_handle_main
+    4300198: door_handle_worker
+    4300200: roof_017
+    4300202: roof_016
+    4300204: roof_015
+    4300206: roof_014
+    4300208: roof_013
+    4300210: roof_012
+    4300212: roof_011
+    4300214: roof_010
+    4300216: roof_009
+    4300218: roof_008
+    4300220: roof_007
+    4300222: roof_006
+    4300224: roof_005
+    4300226: roof_004
+    4300228: roof_003
+    4300230: roof_002
+    4300232: roof_001
+    4300234: lower_floor_009
+    4300236: lower_floor_008
+    4300238: lower_floor_007
+    4300240: lower_floor_006
+    4300242: lower_floor_005
+    4300244: lower_floor_004
+    4300246: lower_floor_003
+    4300248: lower_floor_002
+    4300250: lower_floor_001
+    4300252: upper_floor_017
+    4300254: upper_floor_016
+    4300256: upper_floor_015
+    4300258: upper_floor_014
+    4300260: upper_floor_013
+    4300262: upper_floor_012
+    4300264: upper_floor_011
+    4300266: upper_floor_010
+    4300268: upper_floor_009
+    4300270: upper_floor_008
+    4300272: upper_floor_007
+    4300274: upper_floor_005
+    4300276: upper_floor_004
+    4300278: upper_floor_006
+    4300280: upper_floor_003
+    4300282: upper_floor_002
+    4300284: upper_floor_001
+    4300286: beams_supporting_001
+    4300288: beams_horizontal_011
+    4300290: beams_horizontal_010
+    4300292: beams_horizontal_009
+    4300294: beams_horizontal_008
+    4300296: beams_horizontal_007
+    4300298: beams_horizontal_006
+    4300300: beams_horizontal_005
+    4300302: beams_horizontal_004
+    4300304: beams_horizontal_003
+    4300306: beams_horizontal_002
+    4300308: beams_horizontal_001
+    4300310: lower_floor_010
+    11100000: //RootNode
+    13700000: mainEntrance
+    13700002: workerEntrance
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_001__horizontal_beam_color
+    second: {fileID: 2100000, guid: 44d67fc7db5e6f54db3aa29abd81c245, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_002__horizontal_beam_color
+    second: {fileID: 2100000, guid: 5bf53da1bc2db5e46aaba607699c3dd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_003__museumSign_colormap_p
+    second: {fileID: 2100000, guid: 67dcbf99739c2594297e6c85ee95322d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_004__tourist_info_sign_col
+    second: {fileID: 2100000, guid: 91fb825c214b3a9468ed0df2b83f9ea5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_005__main_museum_door_jpg
+    second: {fileID: 2100000, guid: 5928915a3bcb13a45bed68dc884b3229, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_006__hours_sign_colormap_p
+    second: {fileID: 2100000, guid: e3be05384135d6547aa332d5b909f45d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_007__horizontal_beam_color
+    second: {fileID: 2100000, guid: 0cdaf46cf6325a84f9c68be974dd3384, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_008__cupola_base_jpg
+    second: {fileID: 2100000, guid: dd860a00d6dbde742b0b371e2ffe6e5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_009__cupola_arches_colorma
+    second: {fileID: 2100000, guid: a381b9b322966ae43aa7b37c8f730483, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_009__cupola_roof_colormap_
+    second: {fileID: 2100000, guid: dd0486c139bed12458a18c32a110a0e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_010__horizontal_beam_color
+    second: {fileID: 2100000, guid: b0d0d9994ceab464c8ab38c987717fc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_011__museum_address_si
+    second: {fileID: 2100000, guid: 3504abfbc5f384344a83db74e0f2c562, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_012__beam_supporting_flat_
+    second: {fileID: 2100000, guid: 1c183813aea53dc4e97e00a0fc0afabd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_013__beam_supporting_curve
+    second: {fileID: 2100000, guid: 583a8660b275e1342a7de260850ffd17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_014__upper_floor_stucco_jp
+    second: {fileID: 2100000, guid: 4155325144e47474db1b6e3eedf38d61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_015__city_museum_mailbox_c
+    second: {fileID: 2100000, guid: b56ecce9e43a6494fa4cbe495e6bb588, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_016__vertical_beam_color_p
+    second: {fileID: 2100000, guid: e523fafde7451fc4ca2f291033612fd0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_017__upper_floor_stucco_jp
+    second: {fileID: 2100000, guid: d6bd81a40612c504c8d5c581cbd00bab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_018__upper_floor_stucco_jp
+    second: {fileID: 2100000, guid: f8fa984b36b6f364d8391cc651e5be99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_019__upper_floor_stucco_jp
+    second: {fileID: 2100000, guid: 9bce887581b2a8e4f9bf9c4b11f9d40d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_020__upper_floor_stucco_jp
+    second: {fileID: 2100000, guid: 5cd34f35b0be3d14aae828c9080ec593, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_021__upper_floor_stucco_jp
+    second: {fileID: 2100000, guid: 9fbd95ddfab795249897100261160113, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_022__upper_floor_stucco_jp
+    second: {fileID: 2100000, guid: 7b2fe1bc8d353034c878ee9d1add3be4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_023__upper_floor_stucco_jp
+    second: {fileID: 2100000, guid: 72e03e917ebb09e47b3feb333a3679f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_024__upper_floor_stucco_jp
+    second: {fileID: 2100000, guid: 292488de1cb6d7445be5a78d760be8a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_025__upper_floor_stucco_jp
+    second: {fileID: 2100000, guid: b78e83735e6b34042a28a0f89bb8c654, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_026__upper_floor_stucco_jp
+    second: {fileID: 2100000, guid: 4402feea64128b0409a345003194ca37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_027__upper_floor_stucco_jp
+    second: {fileID: 2100000, guid: 14955b38d839ba348ad66dd64287d9f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_028__upper_floor_stucco_jp
+    second: {fileID: 2100000, guid: 2346ce3a806460248a794927327aad92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_029__upper_floor_stucco_jp
+    second: {fileID: 2100000, guid: 1804b2743b9b73643aff729b5cdc7506, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_030__upper_floor_stucco_jp
+    second: {fileID: 2100000, guid: 0ad6a89d13e797c44b5bec1e5b8657e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_031__windows_upper_floor_c
+    second: {fileID: 2100000, guid: b5d418980bce89c4f880fa01e357ccce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_032__window_frame_front_co
+    second: {fileID: 2100000, guid: e01b0d3322de5dc42b3afed5329e96b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_033__window_frame_sides_co
+    second: {fileID: 2100000, guid: 716baa458c4b17b45b0ac5636710bd01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_034__floor_lower_001_color
+    second: {fileID: 2100000, guid: a8e2b9b895d4779488c957d60f0d5abc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_034__floor_lower_001_color_jpg
+    second: {fileID: 2100000, guid: db51cc747a64b1c4f8559c84b1e6c0b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_035__floor_lower_003_color
+    second: {fileID: 2100000, guid: 17d66c2f23abf8e46b6088c29d1272a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_035__floor_lower_004_color
+    second: {fileID: 2100000, guid: 83c358f538727b44b883c6ada392c75b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_035__floor_lower_005_color
+    second: {fileID: 2100000, guid: 068e8f8becc4c5947acb7a6355c235c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_035__floor_lower_006_color
+    second: {fileID: 2100000, guid: f7ed5ce9273851844910747e9ad1437b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_035__floor_lower_007_color
+    second: {fileID: 2100000, guid: ba0b5da33683c5a4f86ca96f9f7241a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_035__floor_lower_008_color
+    second: {fileID: 2100000, guid: 75a5c6e64acb5f04ab6b2093da57de93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_035__floor_lower_009_color
+    second: {fileID: 2100000, guid: 80b124283754c424ca5a7585e6947440, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_035__floor_lower_010_color
+    second: {fileID: 2100000, guid: dd62752733dc3974fad548272e743593, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_036__floor_lower_002_color
+    second: {fileID: 2100000, guid: 2295ae6ccce954c40a9ce6b5d5b5e705, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_037__roof_tiles_color_jpg
+    second: {fileID: 2100000, guid: 2ffc5d317990810428b4b468641cb51a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_038__roof_tiles_color_jpg
+    second: {fileID: 2100000, guid: 099b00a4ea5bbfb4d80db9166fb61a11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_039__roof_tiles_color_jpg
+    second: {fileID: 2100000, guid: 25f8964742bf45e4391e5182851644c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_040__roof_tiles_color_jpg
+    second: {fileID: 2100000, guid: a0ebc620eaf6ed64e95dec1960e53911, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_041__roof_tiles_color_jpg
+    second: {fileID: 2100000, guid: 8a61b72cd91a85743a7724581e69f8a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_042__roof_tiles_color_jpg
+    second: {fileID: 2100000, guid: 2b7fcb850bda31e4f8e71ec1093c0104, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_043__roof_tiles_color_jpg
+    second: {fileID: 2100000, guid: 41bfb2ac863a00148a4cadcebc2db7db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_044__roof_tiles_color_jpg
+    second: {fileID: 2100000, guid: 88f877d1a7954a447871876e3aa694f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_045__roof_tiles_color_jpg
+    second: {fileID: 2100000, guid: cba81288180dd5146835a1921dc44ac6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_046__roof_tiles_color_jpg
+    second: {fileID: 2100000, guid: c0d2e42e3912769429c4eea0fadb9e64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_047__roof_tiles_color_jpg
+    second: {fileID: 2100000, guid: 49ef914070c71e0489531c76c4e791b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_048__roof_tiles_color_jpg
+    second: {fileID: 2100000, guid: 9f212c80c566d3945b5856e4f6678115, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_049__roof_tiles_color_jpg
+    second: {fileID: 2100000, guid: 73345c9711b536a439675da3f41a2cf2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_050__roof_tiles_color_jpg
+    second: {fileID: 2100000, guid: f61c70a4e4674c34ab3d2d32a2bd09b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_051__roof_tiles_color_jpg
+    second: {fileID: 2100000, guid: f2b8400168ec7b1498e698feea9d13d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_052__roof_tiles_color_jpg
+    second: {fileID: 2100000, guid: 17d19bf13c25c664095625ee57108e01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_053__roof_tiles_color_jpg
+    second: {fileID: 2100000, guid: 523b27f780790be4c968dfc42b74aa4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_054__roof_tiles_color_jpg
+    second: {fileID: 2100000, guid: 99960b70612b10441804909498f7d8bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_055__roof_tiles_color_jpg
+    second: {fileID: 2100000, guid: 500499e4ec2d7e340b9ba06a556dbe2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_056__roof_tiles_color_jpg
+    second: {fileID: 2100000, guid: 6f95cf87871441b4c8e0591f32546b95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_057__roof_tiles_color_jpg
+    second: {fileID: 2100000, guid: e0fc391fc0b79a04a80a2da92e1d2a28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_058__entrance_sign_col
+    second: {fileID: 2100000, guid: 98c4d51910cc6e0468f61f9f4c9cbb9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_059__no_entrannce_sign_col
+    second: {fileID: 2100000, guid: c322c1e3efe30d04f83c1fc7d43f2c0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_060__door_handle_colormap_
+    second: {fileID: 2100000, guid: dea260056b7e9a8479bd6c309687b342, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__horizontal_beam_color
+    second: {fileID: 2100000, guid: d099e5d6a5dbea24dbea46d8a13371fb, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: openMainDoor
+      takeName: 
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: closeMainDoor
+      takeName: 
+      firstFrame: 61
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: openWorkerDoor
+      takeName: 
+      firstFrame: 121
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: closeWorkerDoor
+      takeName: 
+      firstFrame: 181
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 1
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
