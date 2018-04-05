@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 33922880853381726}
   - component: {fileID: 65847565139513712}
   - component: {fileID: 23681495582779348}
-  - component: {fileID: 114498122280915134}
+  - component: {fileID: 114576107169356472}
   m_Layer: 0
   m_Name: collider
   m_TagString: Untagged
@@ -110,6 +110,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4964914841795774}
+  - component: {fileID: 114987103466410832}
   m_Layer: 0
   m_Name: Recycling_Container
   m_TagString: Untagged
@@ -667,7 +668,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
---- !u!114 &114498122280915134
+--- !u!114 &114576107169356472
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -675,15 +676,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1410892740563610}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98a50f86e49812648890b751e521add8, type: 3}
+  m_Script: {fileID: 11500000, guid: 167de9aec76982a4db1732ff3ac88a29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: {fileID: 0}
-  collected:
-    UseConstant: 1
+  points:
+    UseConstant: 0
     ConstantValue: 0
-    Variable: {fileID: 0}
-  Label: {fileID: 0}
+    Variable: {fileID: 11400000, guid: ef0b9ef5ff2ac8245852f2d9e468bbf9, type: 2}
 --- !u!114 &114663337762750954
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -698,6 +697,18 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
+--- !u!114 &114987103466410832
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1482358246383364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98a50f86e49812648890b751e521add8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: {fileID: 0}
 --- !u!222 &222307914225804262
 CanvasRenderer:
   m_ObjectHideFlags: 1
