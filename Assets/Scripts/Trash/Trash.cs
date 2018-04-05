@@ -6,27 +6,12 @@ using GCIEL.Toolkit;
 
 
 public class Trash : SimpleGrab
-
 {
     public TrashType type;
-    
+
+    /// <summary>
+    /// Where the piece of trash is located in the scene
+    /// </summary>
     public string location;
-    [SerializeField]
-    public List<GameEvent> OnCollectEvents;
-
-    public override void Awake()
-    {
-        base.Awake();
-        type.incrementTotalItems();
-    }
-
-    public void CollectAndDestroy()
-    {
-        foreach (GameEvent gameEvent in OnCollectEvents)
-        {
-            gameEvent.Raise();
-        }
-        Destroy(gameObject);
-    }
-
+    
 }

@@ -683,6 +683,7 @@ MonoBehaviour:
     UseConstant: 0
     ConstantValue: 0
     Variable: {fileID: 11400000, guid: ef0b9ef5ff2ac8245852f2d9e468bbf9, type: 2}
+  Collect: {fileID: 11400000, guid: c10663d0f66dab14b9fd4ac5110e9d99, type: 2}
 --- !u!114 &114663337762750954
 MonoBehaviour:
   m_ObjectHideFlags: 1

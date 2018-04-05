@@ -37,8 +37,15 @@ public class TrashManager : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Trash manager triggers the gameOver event when all bottles have been collected
+    /// </summary>
     public GameEvent gameOver;
 
+
+    /// <summary>
+    /// List of all bottles (pieces of trash) in the game
+    /// </summary>
     [SerializeField]
     private List<GameObject> bottles;
     private GameObject currentBottle;
@@ -46,26 +53,40 @@ public class TrashManager : MonoBehaviour
     [SerializeField]
     private Text bottleDirectionsDisplayText;
 
+    // -------------------------------------------------------------------
+   
+    /// <summary>
+    /// Randomizes list of bottles and sets first as active
+    /// </summary>
     public void Start()
     {
-        // Randomize bottles here. We may want a Utils script.
+
+        // Resets counters for which trash has been collected
+        reset();
+
+        // Automatically gets all bottles from children
+        foreach (Transform child in transform)
+        {
+            bottles.Add(child.gameObject);
+        }
+
         Utils.Shuffle<GameObject>(bottles, new System.Random());
         currentBottle = bottles[0];
         foreach(GameObject bottle in bottles)
         {
+            bottle.GetComponent<Trash>().type.incrementTotalItems();
             bottle.SetActive(false); // Turns off all bottles after they have been counted.
         }
         currentBottle.SetActive(true);
         DisplayBottleLocation();
     }
 
-    public void reset() { 
-        
+    public void reset()
+    { 
         foreach (TrashType type in trashTypes)
         {
             type.reset();
         }
-        
     }
 
     public void CollectBottle()
@@ -73,6 +94,7 @@ public class TrashManager : MonoBehaviour
         if (AllCollected)
         {
             Debug.Log("You win!");
+            DisplayYouWin();
             gameOver.Raise();
         } else
         {
@@ -97,7 +119,7 @@ public class TrashManager : MonoBehaviour
             " recycling container.";
     }
 
-    public void YouWin()
+    public void DisplayYouWin()
     {
         bottleDirectionsDisplayText.text = "You found all the bottles!";
     }

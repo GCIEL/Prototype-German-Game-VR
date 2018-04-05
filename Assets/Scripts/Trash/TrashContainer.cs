@@ -6,13 +6,19 @@ using UnityEngine.UI;
 
 public class TrashContainer : MonoBehaviour {
 
-    [Tooltip("Type of tash the container accepts")]
+    [Tooltip("Type of trash the container accepts")]
     public TrashType type;
 
     [Tooltip("Text to fill in with the number of variables collected.")]
     private Canvas Label;
 
+    /// <summary>
+    /// Displays feedback for the user about whether or not they put trash in 
+    /// the correct container
+    /// </summary>
     private GameObject titleCanvas;
+
+    // -------------------------------------------------------------------
 
     private void Start()
     {

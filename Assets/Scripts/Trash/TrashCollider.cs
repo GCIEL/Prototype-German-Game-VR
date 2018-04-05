@@ -3,11 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using GCIEL.Toolkit;
 
-public class TrashCollider : MonoBehaviour {
+public class TrashCollider : MonoBehaviour
+{
 
     [Tooltip("Type of tash the container accepts")]
     private TrashType type;
     public IntReference points;
+
+    [SerializeField]
+    private GameEvent Collect;
+
+    // -------------------------------------------------------------------
 
     private void Start()
     {
@@ -30,7 +36,8 @@ public class TrashCollider : MonoBehaviour {
             TrashContainer trashContainer = GetComponentInParent<TrashContainer>();
             trashContainer.UpdateLabel(e.type);
 
-            e.CollectAndDestroy();
+            Destroy(e);
+            Collect.Raise();
         }
      }
 }
