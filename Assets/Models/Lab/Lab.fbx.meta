@@ -1,0 +1,812 @@
+fileFormatVersion: 2
+guid: 8c343c1ae327b794496fc2a5bd4503dc
+timeCreated: 1510172917
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bottom Light
+    100002: Bottom Light001
+    100004: Bottom Light002
+    100006: Bottom Light003
+    100008: Bottom Light004
+    100010: Bottom Light005
+    100012: Bottom Light006
+    100014: Bottom Light007
+    100016: Box004
+    100018: Box005
+    100020: Box006
+    100022: Box007
+    100024: Box008
+    100026: Box009
+    100028: Box010
+    100030: Box011
+    100032: Cabinet 003
+    100034: Cabinet 004
+    100036: Cabinet 01
+    100038: Cabinet 02
+    100040: Ceiling
+    100042: Ceiling Lighting Unit
+    100044: Ceiling Lighting Unit001
+    100046: Center Light
+    100048: Center Light001
+    100050: Control Keyboard
+    100052: Control Keyboard001
+    100054: Control Monitors
+    100056: Control Monitors001
+    100058: Cylinder002
+    100060: Cylinder003
+    100062: Cylinder004
+    100064: Cylinder005
+    100066: Door (Master)
+    100068: Door Glass Window
+    100070: Door Glass Window002
+    100072: Door Glass Window003
+    100074: Door Glass Window004
+    100076: Floor
+    100078: GrinnellLogo
+    100080: GrinnellLogo 1
+    100082: GrinnellLogo001
+    100084: GrinnellLogo002
+    100086: Hall Light
+    100088: Handle 01
+    100090: Handle 013
+    100092: Handle 014
+    100094: Handle 015
+    100096: Handle 016
+    100098: Handle 017
+    100100: Handle 018
+    100102: Handle 019
+    100104: Handle 02
+    100106: Handle 020
+    100108: Handle 021
+    100110: Handle 022
+    100112: Handle 023
+    100114: Handle 024
+    100116: Handle 025
+    100118: Handle 026
+    100120: Handle 027
+    100122: Handle 028
+    100124: Handle 029
+    100126: Handle 03
+    100128: Handle 030
+    100130: Handle 031
+    100132: Handle 032
+    100134: Handle 033
+    100136: Handle 034
+    100138: Handle 035
+    100140: Handle 036
+    100142: Handle 037
+    100144: Handle 038
+    100146: Handle 039
+    100148: Handle 04
+    100150: Handle 040
+    100152: Handle 041
+    100154: Handle 042
+    100156: Handle 043
+    100158: Handle 044
+    100160: Handle 045
+    100162: Handle 046
+    100164: Handle 047
+    100166: Handle 048
+    100168: Handle 05
+    100170: Handle 06
+    100172: Handle 07
+    100174: Handle 08
+    100176: //RootNode
+    100178: Large Glass Window
+    100180: Large Glass Window001
+    100182: Light Arm 005
+    100184: Light Arm 006
+    100186: Light Arm 007
+    100188: Light Arm 008
+    100190: Light Arm 01
+    100192: Light Arm 02
+    100194: Light Arm 03
+    100196: Light Arm 04
+    100198: Light Source
+    100200: LoadNewSceneBox
+    100202: Monitor
+    100204: Monitor Rod (Left)
+    100206: Monitor Rod (Left)001
+    100208: Monitor Rod (Right)
+    100210: Monitor Rod (Right)001
+    100212: Monitor Rod (Right)002
+    100214: Monitor Rod (Right)003
+    100216: Monitor001
+    100218: Monitor002
+    100220: Monitor003
+    100222: PhotometricLight001
+    100224: PhotometricLight003
+    100226: PhotometricLight004
+    100228: PhysCamera001
+    100230: PhysCamera001.Target
+    100232: Room 002
+    100234: Room 1
+    100236: Room 1 Door Back
+    100238: Room 1 Door Back001
+    100240: Room 1 Door Front
+    100242: Room 1 Door Front001
+    100244: Teleport Pad
+    100246: Teleport Pad Light
+    100248: Teleport Pad Light001
+    100250: Teleport Pad001
+    100252: Top Light
+    100254: Top Light001
+    100256: Top Light002
+    100258: Top Light003
+    100260: Top Light004
+    100262: Top Light005
+    100264: Top Light006
+    100266: Top Light007
+    100268: Wall Brace 003
+    100270: Wall Brace 005
+    100272: Wall Brace 006
+    100274: Wall Brace 007
+    100276: Wall Brace 01 (Master)
+    100278: Wall Brace 01 (Master)001
+    100280: Wall Brace 02
+    100282: Wall Brace 04
+    100284: Wall Panel 001 (Master)
+    100286: Wall Panel 001 (Master)001
+    100288: Wall Panel 002
+    100290: Wall Panel 003
+    100292: Wall Panel 004
+    100294: Wall Panel 005
+    100296: Wall Panel 006
+    100298: Wall Panel 007
+    100300: Window (Master)
+    400000: Bottom Light
+    400002: Bottom Light001
+    400004: Bottom Light002
+    400006: Bottom Light003
+    400008: Bottom Light004
+    400010: Bottom Light005
+    400012: Bottom Light006
+    400014: Bottom Light007
+    400016: Box004
+    400018: Box005
+    400020: Box006
+    400022: Box007
+    400024: Box008
+    400026: Box009
+    400028: Box010
+    400030: Box011
+    400032: Cabinet 003
+    400034: Cabinet 004
+    400036: Cabinet 01
+    400038: Cabinet 02
+    400040: Ceiling
+    400042: Ceiling Lighting Unit
+    400044: Ceiling Lighting Unit001
+    400046: Center Light
+    400048: Center Light001
+    400050: Control Keyboard
+    400052: Control Keyboard001
+    400054: Control Monitors
+    400056: Control Monitors001
+    400058: Cylinder002
+    400060: Cylinder003
+    400062: Cylinder004
+    400064: Cylinder005
+    400066: Door (Master)
+    400068: Door Glass Window
+    400070: Door Glass Window002
+    400072: Door Glass Window003
+    400074: Door Glass Window004
+    400076: Floor
+    400078: GrinnellLogo
+    400080: GrinnellLogo 1
+    400082: GrinnellLogo001
+    400084: GrinnellLogo002
+    400086: Hall Light
+    400088: Handle 01
+    400090: Handle 013
+    400092: Handle 014
+    400094: Handle 015
+    400096: Handle 016
+    400098: Handle 017
+    400100: Handle 018
+    400102: Handle 019
+    400104: Handle 02
+    400106: Handle 020
+    400108: Handle 021
+    400110: Handle 022
+    400112: Handle 023
+    400114: Handle 024
+    400116: Handle 025
+    400118: Handle 026
+    400120: Handle 027
+    400122: Handle 028
+    400124: Handle 029
+    400126: Handle 03
+    400128: Handle 030
+    400130: Handle 031
+    400132: Handle 032
+    400134: Handle 033
+    400136: Handle 034
+    400138: Handle 035
+    400140: Handle 036
+    400142: Handle 037
+    400144: Handle 038
+    400146: Handle 039
+    400148: Handle 04
+    400150: Handle 040
+    400152: Handle 041
+    400154: Handle 042
+    400156: Handle 043
+    400158: Handle 044
+    400160: Handle 045
+    400162: Handle 046
+    400164: Handle 047
+    400166: Handle 048
+    400168: Handle 05
+    400170: Handle 06
+    400172: Handle 07
+    400174: Handle 08
+    400176: //RootNode
+    400178: Large Glass Window
+    400180: Large Glass Window001
+    400182: Light Arm 005
+    400184: Light Arm 006
+    400186: Light Arm 007
+    400188: Light Arm 008
+    400190: Light Arm 01
+    400192: Light Arm 02
+    400194: Light Arm 03
+    400196: Light Arm 04
+    400198: Light Source
+    400200: LoadNewSceneBox
+    400202: Monitor
+    400204: Monitor Rod (Left)
+    400206: Monitor Rod (Left)001
+    400208: Monitor Rod (Right)
+    400210: Monitor Rod (Right)001
+    400212: Monitor Rod (Right)002
+    400214: Monitor Rod (Right)003
+    400216: Monitor001
+    400218: Monitor002
+    400220: Monitor003
+    400222: PhotometricLight001
+    400224: PhotometricLight003
+    400226: PhotometricLight004
+    400228: PhysCamera001
+    400230: PhysCamera001.Target
+    400232: Room 002
+    400234: Room 1
+    400236: Room 1 Door Back
+    400238: Room 1 Door Back001
+    400240: Room 1 Door Front
+    400242: Room 1 Door Front001
+    400244: Teleport Pad
+    400246: Teleport Pad Light
+    400248: Teleport Pad Light001
+    400250: Teleport Pad001
+    400252: Top Light
+    400254: Top Light001
+    400256: Top Light002
+    400258: Top Light003
+    400260: Top Light004
+    400262: Top Light005
+    400264: Top Light006
+    400266: Top Light007
+    400268: Wall Brace 003
+    400270: Wall Brace 005
+    400272: Wall Brace 006
+    400274: Wall Brace 007
+    400276: Wall Brace 01 (Master)
+    400278: Wall Brace 01 (Master)001
+    400280: Wall Brace 02
+    400282: Wall Brace 04
+    400284: Wall Panel 001 (Master)
+    400286: Wall Panel 001 (Master)001
+    400288: Wall Panel 002
+    400290: Wall Panel 003
+    400292: Wall Panel 004
+    400294: Wall Panel 005
+    400296: Wall Panel 006
+    400298: Wall Panel 007
+    400300: Window (Master)
+    2300000: Bottom Light
+    2300002: Bottom Light001
+    2300004: Bottom Light002
+    2300006: Bottom Light003
+    2300008: Bottom Light004
+    2300010: Bottom Light005
+    2300012: Bottom Light006
+    2300014: Bottom Light007
+    2300016: Box004
+    2300018: Box005
+    2300020: Box006
+    2300022: Box007
+    2300024: Box008
+    2300026: Box009
+    2300028: Box010
+    2300030: Box011
+    2300032: Cabinet 003
+    2300034: Cabinet 004
+    2300036: Cabinet 01
+    2300038: Cabinet 02
+    2300040: Ceiling
+    2300042: Ceiling Lighting Unit
+    2300044: Ceiling Lighting Unit001
+    2300046: Center Light
+    2300048: Center Light001
+    2300050: Control Keyboard
+    2300052: Control Keyboard001
+    2300054: Control Monitors
+    2300056: Control Monitors001
+    2300058: Cylinder002
+    2300060: Cylinder003
+    2300062: Cylinder004
+    2300064: Cylinder005
+    2300066: Door (Master)
+    2300068: Door Glass Window
+    2300070: Door Glass Window002
+    2300072: Door Glass Window003
+    2300074: Door Glass Window004
+    2300076: Floor
+    2300078: GrinnellLogo
+    2300080: GrinnellLogo 1
+    2300082: GrinnellLogo001
+    2300084: GrinnellLogo002
+    2300086: Hall Light
+    2300088: Handle 01
+    2300090: Handle 013
+    2300092: Handle 014
+    2300094: Handle 015
+    2300096: Handle 016
+    2300098: Handle 017
+    2300100: Handle 018
+    2300102: Handle 019
+    2300104: Handle 02
+    2300106: Handle 020
+    2300108: Handle 021
+    2300110: Handle 022
+    2300112: Handle 023
+    2300114: Handle 024
+    2300116: Handle 025
+    2300118: Handle 026
+    2300120: Handle 027
+    2300122: Handle 028
+    2300124: Handle 029
+    2300126: Handle 03
+    2300128: Handle 030
+    2300130: Handle 031
+    2300132: Handle 032
+    2300134: Handle 033
+    2300136: Handle 034
+    2300138: Handle 035
+    2300140: Handle 036
+    2300142: Handle 037
+    2300144: Handle 038
+    2300146: Handle 039
+    2300148: Handle 04
+    2300150: Handle 040
+    2300152: Handle 041
+    2300154: Handle 042
+    2300156: Handle 043
+    2300158: Handle 044
+    2300160: Handle 045
+    2300162: Handle 046
+    2300164: Handle 047
+    2300166: Handle 048
+    2300168: Handle 05
+    2300170: Handle 06
+    2300172: Handle 07
+    2300174: Handle 08
+    2300176: Large Glass Window
+    2300178: Large Glass Window001
+    2300180: Light Arm 005
+    2300182: Light Arm 006
+    2300184: Light Arm 007
+    2300186: Light Arm 008
+    2300188: Light Arm 01
+    2300190: Light Arm 02
+    2300192: Light Arm 03
+    2300194: Light Arm 04
+    2300196: Light Source
+    2300198: LoadNewSceneBox
+    2300200: Monitor
+    2300202: Monitor Rod (Left)
+    2300204: Monitor Rod (Left)001
+    2300206: Monitor Rod (Right)
+    2300208: Monitor Rod (Right)001
+    2300210: Monitor Rod (Right)002
+    2300212: Monitor Rod (Right)003
+    2300214: Monitor001
+    2300216: Monitor002
+    2300218: Monitor003
+    2300220: Room 002
+    2300222: Room 1
+    2300224: Room 1 Door Back
+    2300226: Room 1 Door Back001
+    2300228: Room 1 Door Front
+    2300230: Room 1 Door Front001
+    2300232: Teleport Pad
+    2300234: Teleport Pad Light
+    2300236: Teleport Pad Light001
+    2300238: Teleport Pad001
+    2300240: Top Light
+    2300242: Top Light001
+    2300244: Top Light002
+    2300246: Top Light003
+    2300248: Top Light004
+    2300250: Top Light005
+    2300252: Top Light006
+    2300254: Top Light007
+    2300256: Wall Brace 003
+    2300258: Wall Brace 005
+    2300260: Wall Brace 006
+    2300262: Wall Brace 007
+    2300264: Wall Brace 01 (Master)
+    2300266: Wall Brace 01 (Master)001
+    2300268: Wall Brace 02
+    2300270: Wall Brace 04
+    2300272: Wall Panel 001 (Master)
+    2300274: Wall Panel 001 (Master)001
+    2300276: Wall Panel 002
+    2300278: Wall Panel 003
+    2300280: Wall Panel 004
+    2300282: Wall Panel 005
+    2300284: Wall Panel 006
+    2300286: Wall Panel 007
+    2300288: Window (Master)
+    3300000: Bottom Light
+    3300002: Bottom Light001
+    3300004: Bottom Light002
+    3300006: Bottom Light003
+    3300008: Bottom Light004
+    3300010: Bottom Light005
+    3300012: Bottom Light006
+    3300014: Bottom Light007
+    3300016: Box004
+    3300018: Box005
+    3300020: Box006
+    3300022: Box007
+    3300024: Box008
+    3300026: Box009
+    3300028: Box010
+    3300030: Box011
+    3300032: Cabinet 003
+    3300034: Cabinet 004
+    3300036: Cabinet 01
+    3300038: Cabinet 02
+    3300040: Ceiling
+    3300042: Ceiling Lighting Unit
+    3300044: Ceiling Lighting Unit001
+    3300046: Center Light
+    3300048: Center Light001
+    3300050: Control Keyboard
+    3300052: Control Keyboard001
+    3300054: Control Monitors
+    3300056: Control Monitors001
+    3300058: Cylinder002
+    3300060: Cylinder003
+    3300062: Cylinder004
+    3300064: Cylinder005
+    3300066: Door (Master)
+    3300068: Door Glass Window
+    3300070: Door Glass Window002
+    3300072: Door Glass Window003
+    3300074: Door Glass Window004
+    3300076: Floor
+    3300078: GrinnellLogo
+    3300080: GrinnellLogo 1
+    3300082: GrinnellLogo001
+    3300084: GrinnellLogo002
+    3300086: Hall Light
+    3300088: Handle 01
+    3300090: Handle 013
+    3300092: Handle 014
+    3300094: Handle 015
+    3300096: Handle 016
+    3300098: Handle 017
+    3300100: Handle 018
+    3300102: Handle 019
+    3300104: Handle 02
+    3300106: Handle 020
+    3300108: Handle 021
+    3300110: Handle 022
+    3300112: Handle 023
+    3300114: Handle 024
+    3300116: Handle 025
+    3300118: Handle 026
+    3300120: Handle 027
+    3300122: Handle 028
+    3300124: Handle 029
+    3300126: Handle 03
+    3300128: Handle 030
+    3300130: Handle 031
+    3300132: Handle 032
+    3300134: Handle 033
+    3300136: Handle 034
+    3300138: Handle 035
+    3300140: Handle 036
+    3300142: Handle 037
+    3300144: Handle 038
+    3300146: Handle 039
+    3300148: Handle 04
+    3300150: Handle 040
+    3300152: Handle 041
+    3300154: Handle 042
+    3300156: Handle 043
+    3300158: Handle 044
+    3300160: Handle 045
+    3300162: Handle 046
+    3300164: Handle 047
+    3300166: Handle 048
+    3300168: Handle 05
+    3300170: Handle 06
+    3300172: Handle 07
+    3300174: Handle 08
+    3300176: Large Glass Window
+    3300178: Large Glass Window001
+    3300180: Light Arm 005
+    3300182: Light Arm 006
+    3300184: Light Arm 007
+    3300186: Light Arm 008
+    3300188: Light Arm 01
+    3300190: Light Arm 02
+    3300192: Light Arm 03
+    3300194: Light Arm 04
+    3300196: Light Source
+    3300198: LoadNewSceneBox
+    3300200: Monitor
+    3300202: Monitor Rod (Left)
+    3300204: Monitor Rod (Left)001
+    3300206: Monitor Rod (Right)
+    3300208: Monitor Rod (Right)001
+    3300210: Monitor Rod (Right)002
+    3300212: Monitor Rod (Right)003
+    3300214: Monitor001
+    3300216: Monitor002
+    3300218: Monitor003
+    3300220: Room 002
+    3300222: Room 1
+    3300224: Room 1 Door Back
+    3300226: Room 1 Door Back001
+    3300228: Room 1 Door Front
+    3300230: Room 1 Door Front001
+    3300232: Teleport Pad
+    3300234: Teleport Pad Light
+    3300236: Teleport Pad Light001
+    3300238: Teleport Pad001
+    3300240: Top Light
+    3300242: Top Light001
+    3300244: Top Light002
+    3300246: Top Light003
+    3300248: Top Light004
+    3300250: Top Light005
+    3300252: Top Light006
+    3300254: Top Light007
+    3300256: Wall Brace 003
+    3300258: Wall Brace 005
+    3300260: Wall Brace 006
+    3300262: Wall Brace 007
+    3300264: Wall Brace 01 (Master)
+    3300266: Wall Brace 01 (Master)001
+    3300268: Wall Brace 02
+    3300270: Wall Brace 04
+    3300272: Wall Panel 001 (Master)
+    3300274: Wall Panel 001 (Master)001
+    3300276: Wall Panel 002
+    3300278: Wall Panel 003
+    3300280: Wall Panel 004
+    3300282: Wall Panel 005
+    3300284: Wall Panel 006
+    3300286: Wall Panel 007
+    3300288: Window (Master)
+    4300000: Room 1
+    4300002: Wall Panel 001 (Master)
+    4300004: Handle 04
+    4300006: Handle 03
+    4300008: Handle 02
+    4300010: Handle 01
+    4300012: Monitor
+    4300014: Monitor Rod (Left)
+    4300016: Monitor Rod (Right)
+    4300018: Wall Brace 01 (Master)
+    4300020: Top Light001
+    4300022: Bottom Light001
+    4300024: Room 1 Door Front
+    4300026: Door Glass Window
+    4300028: GrinnellLogo
+    4300030: Control Monitors
+    4300032: Control Keyboard
+    4300034: Monitor001
+    4300036: Monitor Rod (Right)001
+    4300038: Large Glass Window
+    4300040: Room 1 Door Back
+    4300042: Door Glass Window002
+    4300044: GrinnellLogo
+    4300046: Wall Panel 002
+    4300048: Handle 05
+    4300050: Handle 06
+    4300052: Handle 07
+    4300054: Handle 08
+    4300056: Wall Brace 02
+    4300058: Bottom Light
+    4300060: Top Light
+    4300062: Wall Panel 003
+    4300064: Wall Brace 003
+    4300066: Bottom Light002
+    4300068: Top Light002
+    4300070: Box004
+    4300072: Box005
+    4300074: Box006
+    4300076: Cylinder002
+    4300078: Cylinder003
+    4300080: Wall Panel 004
+    4300082: Handle 013
+    4300084: Handle 014
+    4300086: Handle 015
+    4300088: Handle 016
+    4300090: Wall Brace 04
+    4300092: Bottom Light003
+    4300094: Top Light003
+    4300096: Cabinet 02
+    4300098: Handle 022
+    4300100: Handle 023
+    4300102: Handle 024
+    4300104: Handle 025
+    4300106: Handle 026
+    4300108: Cabinet 01
+    4300110: Handle 020
+    4300112: Handle 021
+    4300114: Handle 017
+    4300116: Handle 018
+    4300118: Handle 019
+    4300120: Ceiling Lighting Unit
+    4300122: Center Light
+    4300124: Light Arm 01
+    4300126: Light Arm 02
+    4300128: Light Arm 03
+    4300130: Light Arm 04
+    4300132: Teleport Pad
+    4300134: Teleport Pad Light
+    4300136: Door (Master)
+    4300138: Window (Master)
+    4300140: Floor
+    4300142: LoadNewSceneBox
+    4300144: Ceiling
+    4300146: Hall Light
+    4300148: Light Source
+    4300150: Room 002
+    4300152: Cabinet 003
+    4300154: Handle 032
+    4300156: Handle 033
+    4300158: Handle 034
+    4300160: Handle 036
+    4300162: Handle 037
+    4300164: Cabinet 004
+    4300166: Handle 038
+    4300168: Handle 039
+    4300170: Handle 040
+    4300172: Handle 041
+    4300174: Handle 042
+    4300176: Control Keyboard001
+    4300178: Monitor003
+    4300180: Monitor Rod (Right)003
+    4300182: Control Monitors001
+    4300184: Large Glass Window001
+    4300186: Room 1 Door Back001
+    4300188: Door Glass Window004
+    4300190: GrinnellLogo002
+    4300192: Room 1 Door Front001
+    4300194: Door Glass Window003
+    4300196: GrinnellLogo001
+    4300198: Wall Panel 001 (Master)001
+    4300200: Handle 027
+    4300202: Handle 035
+    4300204: Handle 043
+    4300206: Handle 044
+    4300208: Monitor002
+    4300210: Monitor Rod (Left)001
+    4300212: Monitor Rod (Right)002
+    4300214: Wall Brace 01 (Master)001
+    4300216: Bottom Light005
+    4300218: Top Light005
+    4300220: Wall Panel 005
+    4300222: Handle 045
+    4300224: Handle 046
+    4300226: Handle 047
+    4300228: Handle 048
+    4300230: Wall Brace 006
+    4300232: Bottom Light004
+    4300234: Top Light004
+    4300236: Wall Panel 006
+    4300238: Box007
+    4300240: Box008
+    4300242: Box009
+    4300244: Cylinder004
+    4300246: Cylinder005
+    4300248: Wall Brace 005
+    4300250: Bottom Light006
+    4300252: Top Light006
+    4300254: Wall Panel 007
+    4300256: Handle 028
+    4300258: Handle 029
+    4300260: Handle 030
+    4300262: Handle 031
+    4300264: Wall Brace 007
+    4300266: Bottom Light007
+    4300268: Top Light007
+    4300270: Ceiling Lighting Unit001
+    4300272: Center Light001
+    4300274: Light Arm 005
+    4300276: Light Arm 006
+    4300278: Light Arm 007
+    4300280: Light Arm 008
+    4300282: Teleport Pad001
+    4300284: Teleport Pad Light001
+    4300286: Box010
+    4300288: Box011
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
