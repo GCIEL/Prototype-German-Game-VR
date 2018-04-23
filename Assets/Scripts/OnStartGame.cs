@@ -8,7 +8,7 @@ public class OnStartGame : MonoBehaviour {
     public GameEvent OnStart;
 
 	// Use this for initialization
-	void Awake () {
+	void Start () {
         OnStart.Raise();
 	}
 	

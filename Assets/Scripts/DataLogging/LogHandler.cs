@@ -17,12 +17,13 @@ public class LogHandler : MonoBehaviour {
 
     private void HandleLog(string condition, string stackTrace, LogType type)
     {
-        var logEntry = string.Format("\n {0] {1} {2}", DateTime.Now, type, condition);
+        var logEntry = string.Format("\n {0} {1} {2}", DateTime.Now, type, condition);
         writer.Write(logEntry);
     }
 
     private void OnDestroy()
     {
+        
         writer.Close();
     }
 }
