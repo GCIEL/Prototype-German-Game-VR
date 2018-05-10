@@ -53,6 +53,9 @@ public class TrashManager : MonoBehaviour
     [SerializeField]
     private Text bottleDirectionsDisplayText;
 
+    [SerializeField]
+    private GameEvent TrashAppear;
+
     // -------------------------------------------------------------------
    
     /// <summary>
@@ -77,8 +80,7 @@ public class TrashManager : MonoBehaviour
             bottle.GetComponent<Trash>().type.incrementTotalItems();
             bottle.SetActive(false); // Turns off all bottles after they have been counted.
         }
-        currentBottle.SetActive(true);
-        DisplayBottleLocation();
+        TrashAppear.Raise();
     }
 
     public void reset()
@@ -96,7 +98,8 @@ public class TrashManager : MonoBehaviour
             Debug.Log("You win!");
             DisplayYouWin();
             gameOver.Raise();
-        } else
+        }
+        else
         {
             currentBottle = bottles[NumCollected];
         }
@@ -105,10 +108,6 @@ public class TrashManager : MonoBehaviour
     public void RevealNextBottle()
     {
         currentBottle.SetActive(true);
-    }
-
-    public void DisplayBottleLocation()
-    {
         bottleDirectionsDisplayText.text = "The next bottle is " + currentBottle.GetComponent<Trash>().location;
     }
 
@@ -122,6 +121,11 @@ public class TrashManager : MonoBehaviour
     public void DisplayYouWin()
     {
         bottleDirectionsDisplayText.text = "You found all the bottles!";
+    }
+
+    public string getCurrentBottleLocation()
+    {
+        return currentBottle.GetComponent<Trash>().location;
     }
 }
 
