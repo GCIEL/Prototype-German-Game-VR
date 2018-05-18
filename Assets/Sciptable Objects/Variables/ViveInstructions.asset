@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae8e5c3903cb34b499b38e50efba19ce, type: 3}
+  m_Name: ViveInstructions
+  m_EditorClassIdentifier: 
+  DeveloperDescription: 
+  Value: 'Collect green, brown, and white glass bottles around town and put them in
+    the correct recycling bins. Pick up bottles by putting the controller on the bottle
+    and holding down the trigger by the index finger. There are nine bottles total,
+    three of each color.
+
+
+    Point the controller at the ground and press the trackpad in to get a teleport
+    ray. A white circle will appear for valid teleportation spots. Release the trackpad
+    to teleport.
+
+
+    Press the menu button on the left controller to see these instructions again and
+    the menu button on the right controller for advice on what to do.'
