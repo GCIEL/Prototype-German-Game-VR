@@ -32,6 +32,9 @@ public class LaserPointer : MonoBehaviour {
     public Vector3 teleportReticleOffset;
     public Vector3 teleportPointerOffset;
     public LayerMask teleportMask;
+    public LayerMask blockTeleportMask;
+    [SerializeField]
+    private int maxTeleportDistance;
     private bool shouldTeleport;
     private bool canTeleport = true;
 
@@ -56,16 +59,35 @@ public class LaserPointer : MonoBehaviour {
             y = Controller.GetAxis().y;
             x = Controller.GetAxis().x;
 
-            if (Physics.Raycast(trackedObj.transform.position, transform.forward, out hit, 100, teleportMask))
+            if (Physics.Raycast(trackedObj.transform.position, transform.forward, out hit, maxTeleportDistance, blockTeleportMask))
             {
                 hitPoint = hit.point;
                 ShowLaser(hit);
-                reticle.SetActive(true);
-                pointer.SetActive(true);
+                ToggleTelportationReticle(false);
+            }
+            else if (Physics.Raycast(trackedObj.transform.position, transform.forward, out hit, maxTeleportDistance, teleportMask))
+            {
+                hitPoint = hit.point;
+                ShowLaser(hit);
+                ToggleTelportationReticle(true);
                 teleportReticleTransform.position = hitPoint + teleportReticleOffset;
                 pointer.transform.position = teleportReticleTransform.position + teleportPointerOffset;
-                shouldTeleport = true;
-                pointer.transform.rotation =  Quaternion.LookRotation(new Vector3(x, 0, y), Vector3.up);
+                pointer.transform.rotation = Quaternion.LookRotation(new Vector3(x, 0, y), Vector3.up);
+            }
+            else if (Physics.Raycast(trackedObj.transform.position, transform.forward, out hit, int.MaxValue, blockTeleportMask))
+            {
+              
+                hitPoint = hit.point;
+                ShowLaser(hit);
+                //laser.SetActive(false);
+                ToggleTelportationReticle(false);
+            }
+            else if (Physics.Raycast(trackedObj.transform.position, transform.forward, out hit, int.MaxValue, teleportMask))
+            {
+                hitPoint = hit.point;
+                ShowLaser(hit);
+                //laser.SetActive(false);
+                ToggleTelportationReticle(false);
             }
         }
         else
@@ -100,6 +122,13 @@ public class LaserPointer : MonoBehaviour {
         Vector3 difference = cameraRigTransform.position - headTransform.position;
         difference.y = 0;
         cameraRigTransform.position = hitPoint + difference;
+    }
+
+    private void ToggleTelportationReticle(bool state)
+    {
+        reticle.SetActive(state);
+        pointer.SetActive(state);
+        shouldTeleport = state;
     }
 
     private void RotateCamera()

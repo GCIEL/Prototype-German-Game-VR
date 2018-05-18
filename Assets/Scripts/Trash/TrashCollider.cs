@@ -36,7 +36,7 @@ public class TrashCollider : MonoBehaviour
             TrashContainer trashContainer = GetComponentInParent<TrashContainer>();
             trashContainer.UpdateLabel(e.type);
 
-            Destroy(e);
+            Destroy(e.gameObject);
             Collect.Raise();
         }
      }

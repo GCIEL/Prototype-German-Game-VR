@@ -10,6 +10,8 @@ public class OnStartGame : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         OnStart.Raise();
+        Debug.Log("Loaded Device Name: " + UnityEngine.XR.XRSettings.loadedDeviceName);
+        Debug.Log("Model: " + UnityEngine.XR.XRDevice.model);
 	}
 	
 }
