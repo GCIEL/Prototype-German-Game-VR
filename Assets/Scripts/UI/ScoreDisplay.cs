@@ -10,6 +10,6 @@ public class ScoreDisplay : MonoBehaviour {
 
 	public void UpdateScore()
     {
-        gameObject.GetComponent<Text>().text = "Score: " + score.Value;
+        gameObject.GetComponent<Text>().text = "Punkte: " + score.Value;
     }
 }

@@ -15,7 +15,7 @@ public class BottlesCollectedDisplay : MonoBehaviour {
 
         foreach(TrashType type in trashTypes)
         {
-            displayText += type.Title + ": " + type.CorrectCollectedItems + " out of " + type.TotalItems + " correct.\n";
+            displayText += type.Title + ": " + type.CorrectCollectedItems + " von " + type.TotalItems + " richtig.\n";
         }
 
         gameObject.GetComponent<Text>().text = displayText;
