@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Name: RiftInstructions
   m_EditorClassIdentifier: 
   DeveloperDescription: 
-  Value: 'Collect green, brown, and white glass bottles around town and put them in
-    the correct recycling bins. Pick up bottles by putting the controller on the bottle
-    and holding down the trigger by the index finger. There are nine bottles total,
-    three of each color.
+  Value: 'Collect green, brown, and clear glass bottles around town and put them in
+    the correct recycling container. Pick up bottles by putting the controller on
+    the bottle and holding down the trigger by the index finger. There are nine bottles
+    total, three of each color.
 
 
     Point the controller at the ground and press the joystick in to get a teleport
@@ -24,4 +24,4 @@ MonoBehaviour:
 
 
     Press (Y) on the left controller to see these instructions again and (B) on the
-    right controller for advice on what to do.'
+    right controller for advice on what to do (in German).'

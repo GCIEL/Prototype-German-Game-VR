@@ -18,7 +18,7 @@ namespace GCIEL.Toolkit
         [Multiline]
         public string DeveloperDescription = "";
 #endif
-        [TextArea]
+        [TextArea(15,20)]
         public string Value;
 
         public void SetValue(string value)

@@ -48,11 +48,11 @@ public class TrashContainer : MonoBehaviour {
 
         if (givenBottleType == type && Label != null)
         {
-            Label.GetComponentInChildren<Text>().text = "Correct!";
+            Label.GetComponentInChildren<Text>().text = "Richtig!";
         }
         else
         {
-            Label.GetComponentInChildren<Text>().text = "Incorrect!";
+            Label.GetComponentInChildren<Text>().text = "Falsch!";
         }
 
         yield return new WaitForSeconds(5.0f);

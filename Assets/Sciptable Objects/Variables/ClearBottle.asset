@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d81e92292e394ae49bc900713c72ff15, type: 3}
   m_Name: ClearBottle
   m_EditorClassIdentifier: 
-  title: Clear Bottle
-  TotalItems: 0
+  title: "Wei\xDFglas"
+  TotalItems: 3
   CollectedItems: 0
   CorrectCollectedItems: 0
   PointValue: 10

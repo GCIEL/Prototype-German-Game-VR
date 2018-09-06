@@ -108,14 +108,14 @@ public class TrashManager : MonoBehaviour
     public void RevealNextBottle()
     {
         currentBottle.SetActive(true);
-        bottleDirectionsDisplayText.text = "The next bottle is " + currentBottle.GetComponent<Trash>().location;
+        bottleDirectionsDisplayText.text = "Die nächste Flasche ist " + currentBottle.GetComponent<Trash>().location;
     }
 
     public void DisplayRecycleBottle()
     {
-        bottleDirectionsDisplayText.text = "Recycle the bottle in the " + 
+        bottleDirectionsDisplayText.text = "Werfen Sie die Flasche in den Container für " + 
             currentBottle.GetComponent<Trash>().type.Title + 
-            " recycling container.";
+            ".";
     }
 
     public void DisplayYouWin()

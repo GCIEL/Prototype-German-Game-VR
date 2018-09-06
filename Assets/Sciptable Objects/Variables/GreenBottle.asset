@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d81e92292e394ae49bc900713c72ff15, type: 3}
   m_Name: GreenBottle
   m_EditorClassIdentifier: 
-  title: Green Bottle
-  TotalItems: 2
+  title: "Gr\xFCnglas"
+  TotalItems: 3
   CollectedItems: 0
   CorrectCollectedItems: 0
   PointValue: 10

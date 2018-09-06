@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d81e92292e394ae49bc900713c72ff15, type: 3}
   m_Name: BrownBottle
   m_EditorClassIdentifier: 
-  title: Brown Bottle
-  TotalItems: 0
-  CollectedItems: 0
-  CorrectCollectedItems: 0
+  title: Braunglas
+  TotalItems: 3
+  CollectedItems: 1
+  CorrectCollectedItems: 1
   PointValue: 10
